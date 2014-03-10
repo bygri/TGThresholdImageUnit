@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82FEF36618CD3BD900DFDD32 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FEF36518CD3BD900DFDD32 /* ApplicationServices.framework */; };
+		82FEF36818CD3BD900DFDD32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FEF36718CD3BD900DFDD32 /* Foundation.framework */; };
+		82FEF36A18CD3BD900DFDD32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FEF36918CD3BD900DFDD32 /* QuartzCore.framework */; };
+		82FEF36C18CD3BD900DFDD32 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82FEF36B18CD3BD900DFDD32 /* CoreFoundation.framework */; };
+		82FEF37218CD3BD900DFDD32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82FEF37018CD3BD900DFDD32 /* InfoPlist.strings */; };
+		82FEF37518CD3BD900DFDD32 /* TGThresholdImageUnitPlugInLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEF37418CD3BD900DFDD32 /* TGThresholdImageUnitPlugInLoader.m */; };
+		82FEF37818CD3BD900DFDD32 /* TGThresholdImageUnitFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FEF37718CD3BD900DFDD32 /* TGThresholdImageUnitFilter.m */; };
+		82FEF37A18CD3BD900DFDD32 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 82FEF37918CD3BD900DFDD32 /* index.html */; };
+		82FEF37C18CD3BD900DFDD32 /* Description.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82FEF37B18CD3BD900DFDD32 /* Description.plist */; };
+		82FEF37F18CD3BD900DFDD32 /* Description.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82FEF37D18CD3BD900DFDD32 /* Description.strings */; };
+		82FEF38118CD3BD900DFDD32 /* TGThresholdImageUnitFilterKernel.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 82FEF38018CD3BD900DFDD32 /* TGThresholdImageUnitFilterKernel.cikernel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82FEF36218CD3BD900DFDD32 /* TGThresholdImageUnit.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGThresholdImageUnit.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FEF36518CD3BD900DFDD32 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		82FEF36718CD3BD900DFDD32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82FEF36918CD3BD900DFDD32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		82FEF36B18CD3BD900DFDD32 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		82FEF36F18CD3BD900DFDD32 /* TGThresholdImageUnit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TGThresholdImageUnit-Info.plist"; sourceTree = "<group>"; };
+		82FEF37118CD3BD900DFDD32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82FEF37318CD3BD900DFDD32 /* TGThresholdImageUnitPlugInLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGThresholdImageUnitPlugInLoader.h; sourceTree = "<group>"; };
+		82FEF37418CD3BD900DFDD32 /* TGThresholdImageUnitPlugInLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGThresholdImageUnitPlugInLoader.m; sourceTree = "<group>"; };
+		82FEF37618CD3BD900DFDD32 /* TGThresholdImageUnitFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGThresholdImageUnitFilter.h; sourceTree = "<group>"; };
+		82FEF37718CD3BD900DFDD32 /* TGThresholdImageUnitFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGThresholdImageUnitFilter.m; sourceTree = "<group>"; };
+		82FEF37918CD3BD900DFDD32 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		82FEF37B18CD3BD900DFDD32 /* Description.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Description.plist; sourceTree = "<group>"; };
+		82FEF37E18CD3BD900DFDD32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Description.strings; sourceTree = "<group>"; };
+		82FEF38018CD3BD900DFDD32 /* TGThresholdImageUnitFilterKernel.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = TGThresholdImageUnitFilterKernel.cikernel; sourceTree = "<group>"; };
+		82FEF38218CD3BD900DFDD32 /* TGThresholdImageUnit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TGThresholdImageUnit-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FEF35D18CD3BD900DFDD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FEF36C18CD3BD900DFDD32 /* CoreFoundation.framework in Frameworks */,
+				82FEF36618CD3BD900DFDD32 /* ApplicationServices.framework in Frameworks */,
+				82FEF36818CD3BD900DFDD32 /* Foundation.framework in Frameworks */,
+				82FEF36A18CD3BD900DFDD32 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82FEF35718CD3BD900DFDD32 = {
+			isa = PBXGroup;
+			children = (
+				82FEF36D18CD3BD900DFDD32 /* TGThresholdImageUnit */,
+				82FEF36418CD3BD900DFDD32 /* Frameworks */,
+				82FEF36318CD3BD900DFDD32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82FEF36318CD3BD900DFDD32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FEF36218CD3BD900DFDD32 /* TGThresholdImageUnit.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FEF36418CD3BD900DFDD32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82FEF36518CD3BD900DFDD32 /* ApplicationServices.framework */,
+				82FEF36718CD3BD900DFDD32 /* Foundation.framework */,
+				82FEF36918CD3BD900DFDD32 /* QuartzCore.framework */,
+				82FEF36B18CD3BD900DFDD32 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82FEF36D18CD3BD900DFDD32 /* TGThresholdImageUnit */ = {
+			isa = PBXGroup;
+			children = (
+				82FEF37318CD3BD900DFDD32 /* TGThresholdImageUnitPlugInLoader.h */,
+				82FEF37418CD3BD900DFDD32 /* TGThresholdImageUnitPlugInLoader.m */,
+				82FEF37618CD3BD900DFDD32 /* TGThresholdImageUnitFilter.h */,
+				82FEF37718CD3BD900DFDD32 /* TGThresholdImageUnitFilter.m */,
+				82FEF37918CD3BD900DFDD32 /* index.html */,
+				82FEF37B18CD3BD900DFDD32 /* Description.plist */,
+				82FEF37D18CD3BD900DFDD32 /* Description.strings */,
+				82FEF38018CD3BD900DFDD32 /* TGThresholdImageUnitFilterKernel.cikernel */,
+				82FEF36E18CD3BD900DFDD32 /* Supporting Files */,
+			);
+			path = TGThresholdImageUnit;
+			sourceTree = "<group>";
+		};
+		82FEF36E18CD3BD900DFDD32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82FEF36F18CD3BD900DFDD32 /* TGThresholdImageUnit-Info.plist */,
+				82FEF37018CD3BD900DFDD32 /* InfoPlist.strings */,
+				82FEF38218CD3BD900DFDD32 /* TGThresholdImageUnit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82FEF35E18CD3BD900DFDD32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82FEF36118CD3BD900DFDD32 /* TGThresholdImageUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FEF38518CD3BD900DFDD32 /* Build configuration list for PBXNativeTarget "TGThresholdImageUnit" */;
+			buildPhases = (
+				82FEF35C18CD3BD900DFDD32 /* Sources */,
+				82FEF35D18CD3BD900DFDD32 /* Frameworks */,
+				82FEF35E18CD3BD900DFDD32 /* Headers */,
+				82FEF35F18CD3BD900DFDD32 /* Resources */,
+				82FEF36018CD3BD900DFDD32 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGThresholdImageUnit;
+			productName = TGThresholdImageUnit;
+			productReference = 82FEF36218CD3BD900DFDD32 /* TGThresholdImageUnit.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FEF35818CD3BD900DFDD32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 82FEF35B18CD3BD900DFDD32 /* Build configuration list for PBXProject "TGThresholdImageUnit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82FEF35718CD3BD900DFDD32;
+			productRefGroup = 82FEF36318CD3BD900DFDD32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FEF36118CD3BD900DFDD32 /* TGThresholdImageUnit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82FEF35F18CD3BD900DFDD32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FEF37C18CD3BD900DFDD32 /* Description.plist in Resources */,
+				82FEF37218CD3BD900DFDD32 /* InfoPlist.strings in Resources */,
+				82FEF37A18CD3BD900DFDD32 /* index.html in Resources */,
+				82FEF38118CD3BD900DFDD32 /* TGThresholdImageUnitFilterKernel.cikernel in Resources */,
+				82FEF37F18CD3BD900DFDD32 /* Description.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		82FEF36018CD3BD900DFDD32 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FEF35C18CD3BD900DFDD32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FEF37818CD3BD900DFDD32 /* TGThresholdImageUnitFilter.m in Sources */,
+				82FEF37518CD3BD900DFDD32 /* TGThresholdImageUnitPlugInLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82FEF37018CD3BD900DFDD32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FEF37118CD3BD900DFDD32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82FEF37D18CD3BD900DFDD32 /* Description.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FEF37E18CD3BD900DFDD32 /* en */,
+			);
+			name = Description.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82FEF38318CD3BD900DFDD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82FEF38418CD3BD900DFDD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82FEF38618CD3BD900DFDD32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGThresholdImageUnit/TGThresholdImageUnit-Prefix.pch";
+				INFOPLIST_FILE = "TGThresholdImageUnit/TGThresholdImageUnit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Image Units";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		82FEF38718CD3BD900DFDD32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGThresholdImageUnit/TGThresholdImageUnit-Prefix.pch";
+				INFOPLIST_FILE = "TGThresholdImageUnit/TGThresholdImageUnit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Image Units";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FEF35B18CD3BD900DFDD32 /* Build configuration list for PBXProject "TGThresholdImageUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FEF38318CD3BD900DFDD32 /* Debug */,
+				82FEF38418CD3BD900DFDD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FEF38518CD3BD900DFDD32 /* Build configuration list for PBXNativeTarget "TGThresholdImageUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FEF38618CD3BD900DFDD32 /* Debug */,
+				82FEF38718CD3BD900DFDD32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FEF35818CD3BD900DFDD32 /* Project object */;
+}

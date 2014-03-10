@@ -1,0 +1,2 @@
+"TGThresholdImageUnitFilter" = "TG Threshold Filter";
+"filterDescription" = "The Threshold filter turns all pixels where the RGB channels all have a value above 'threshold' white. Pixels below threshold remain coloured.";
